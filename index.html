@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>One Page Blog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Bloggers Stop</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="home">
+        <div class="container">
+            <h2>THE BLOG</h2>
+            <p>Create. Type. Share.</p>
+        </div>
+    </section>
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Welcome to My Blog, where we are passionate about sharing knowledge and insights on a variety of topics. Our mission is to provide valuable content that educates, informs, and inspires our readers. Whether you're looking for the latest trends, insightful articles, or just a bit of inspiration, you'll find it here. Thank you for visiting, and we hope you enjoy reading our posts as much as we enjoy creating them.</p>
+        </div>
+    </section>
+    <section id="blog">
+        <div class="container">
+            <article>
+                <img src="black_hole.jpg" alt="Featured Image">
+                <h2>The Mysteries of Black Holes: Unraveling the Universe's Darkest Secrets</h2>
+                <p class="date">Posted on July 30, 2024</p>
+                <p>Black holes are among the most fascinating objects in the universe, known for their powerful gravitational pull from which nothing, not even light, can escape. They form when massive stars collapse under their own gravity, creating a singularity—a point of infinite density.</p>
+                
+                <h3>Types of Black Holes</h3>
+                <p>There are three main types of black holes:</p>
+                <ul>
+                    <li><strong>Stellar Black Holes:</strong> Formed from collapsing stars, these have masses up to 20 times that of the Sun.</li>
+                    <li><strong>Intermediate Black Holes:</strong> With masses between 100 to 1000 times the Sun, these are less common and harder to detect.</li>
+                    <li><strong>Supermassive Black Holes:</strong> Found at the centers of galaxies, including our Milky Way, they have millions to billions of solar masses.</li>
+                </ul>
+                
+                <h3>Why Black Holes Matter</h3>
+                <p>Black holes play a crucial role in the universe, influencing the formation and evolution of galaxies. They are key to understanding gravity and the fundamental laws of physics.</p>
+                
+                <h3>Exploring the Unknown</h3>
+                <p>Studying black holes helps scientists explore the boundaries of space and time. Advances in technology, such as the Event Horizon Telescope, continue to unveil their secrets, providing glimpses into these cosmic enigmas.</p>
+                
+                <section class="comments">
+                    <h3>Comments</h3>
+                    <div class="comment">
+                        <p><strong>Shruti Arya:</strong> Great post! I found it very informative.</p>
+                    </div>
+                    <div class="comment">
+                        <p><strong>Rahul:</strong> Thanks for sharing!</p>
+                    </div>
+                    <form id="commentForm">
+                        <textarea id="commentText" placeholder="Leave a comment"></textarea>
+                        <button type="submit">Post Comment</button>
+                    </form>
+                </section>
+            </article>
+            
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form id="contactForm">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="Your Email" required>
+                <textarea id="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 My Blog</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
